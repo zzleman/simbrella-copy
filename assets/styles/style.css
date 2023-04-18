@@ -1,0 +1,81 @@
+header {
+    font-size: 20px;
+    color:darkblue ;
+    padding-left: 160px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+h1{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-right: 1200px;
+    text-align: left;
+}
+.arrow-image{
+    width: 20px;
+    padding-left: 120px;
+    padding-top: 0px;
+}
+button{  
+    float: right;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1000px;
+    margin-top: 20px;
+    padding: 0 65px 10px 30px;
+    width: 180px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 120px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.509) ; 
+    background-color: white;
+    font-size: 15px;
+    color: #222; 
+}
+button:hover{
+    border: 2px solid orange;
+}
+
+.container{
+    width: max-content;
+    margin: auto;
+}
+.card{
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 2px solid  rgba(128, 128, 128, 0.25) ;
+    color: gray;
+    width: 350px;
+    height: 450px;
+    color: #5F6773;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.card > h2{
+    color: black;
+}
+.section1 > img{
+    padding-top: 50px;
+    width: 200px;
+}
+.section2 > img{
+    padding-top: 65px;
+    width: 200px;
+}
+.section3 > img{
+    padding-top: 90px;
+    width: 200px;
+}
